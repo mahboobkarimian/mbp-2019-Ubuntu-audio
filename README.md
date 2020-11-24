@@ -5,7 +5,7 @@ Download as zip or clone this git repository, change directory to the one that c
 bash install.sh
 `
 
-## Detailes:
+## Manual installation:
 The files go to:
 ```
 /usr/share/alsa/cards/AppleT2.conf
