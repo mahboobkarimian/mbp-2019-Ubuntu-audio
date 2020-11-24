@@ -1,5 +1,5 @@
 ## Installation:
-Download as zip or clone this git repository, change directory to the one that contains the files, then just to run:
+Download as zip or clone this git repository, change directory to the one that contains the files, then just run:
 `
 bash install.sh
 `
