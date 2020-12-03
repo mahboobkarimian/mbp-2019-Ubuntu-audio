@@ -7,3 +7,7 @@ sudo cp -v default.pa $HOME/.config/pulse/default.pa
 sudo cp -v daemon.conf $HOME/.config/pulse/daemon.conf
 echo "#### Restarting pulseaudio ####"
 systemctl --user restart pulseaudio.service
+echo "#### Increasing mic level by 400% ####"
+index=`pacmd list-sources | grep builtin-mic -B 2 | grep index | cut -d ":" -f 2 | tr -d " "`
+pacmd set-source-volume $index 0x40000
+pacmd list-sources | grep builtin-mic -A 10| grep volume
