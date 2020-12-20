@@ -1,5 +1,6 @@
 ## Installation:
 Download as zip or clone this git repository, change directory to the one that contains the files, then just run:
+Note that you need sudo in order to install.
 
 `
 bash install.sh
