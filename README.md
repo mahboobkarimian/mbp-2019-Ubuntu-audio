@@ -5,7 +5,7 @@ Download as zip or clone this git repository, change directory to the one that c
 bash install.sh
 `
 
-Note that you need sudo in order to run installer.
+Note that you will prompt for root password in order to run installer as some files go to `/usr/...`
 ## Manual installation:
 The files go to:
 ```
