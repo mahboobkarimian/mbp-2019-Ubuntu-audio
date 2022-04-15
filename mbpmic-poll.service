@@ -1,0 +1,10 @@
+[Unit]
+Description=Mic Volume Set ervice For MacbookPro16
+
+[Service]
+Type=simple
+ExecStart=%h/mbp-2019-Ubuntu-audio/poll_mic.sh
+Restart=always
+
+[Install]
+WantedBy=default.target
